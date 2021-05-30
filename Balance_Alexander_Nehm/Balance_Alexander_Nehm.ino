@@ -1,6 +1,6 @@
-//Aufgabe: Der Arduino soll in x-Richtung die Balance halten und das anzeigen (rot heißt vorne runter, gelb hinten runter, grün waagerecht).
+//Aufgabe: Der Arduino soll in x-Richtung die Balance halten und das anzeigen (rot heißt vorne runter, gelb hinten runter, grün waagerecht). Zum Programmstart leuchtet die Status-LED erst rot, dann gelb und dann grün.
 //Autor: Alexander Nehm
-//Datum: 04.12.2020 / 16.12.2020
+//Datum: 04.12.2020 / 16.12.2020 / edit 30.05.2021
 
 
 #include <Arduino_LSM9DS1.h>
