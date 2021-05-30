@@ -17,6 +17,18 @@ void setup() {
     Serial.println("Failed to initialize IMU!"); // Übernommen aus dem Beispielprogramm des Accelerometers. Checkt quasi nur ob der Sensor korrekt funktioniert.
     while (1);
                       }
+// Ampel zum Start
+  rotAn();
+  delay(3000);
+
+  gelbAn();
+  delay(3000);
+
+  gruenAn();
+  delay(3000);
+
+  allesAus();
+  delay(500);                      
  
             
    
@@ -68,5 +80,9 @@ void gruenAn() {
   digitalWrite(LEDB, HIGH);  
                 }
 
-
+void allesAus() {
+  digitalWrite(LEDR, HIGH);
+  digitalWrite(LEDG, HIGH);
+  digitalWrite(LEDB, HIGH);  
+}
                 
